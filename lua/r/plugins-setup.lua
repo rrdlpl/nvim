@@ -56,10 +56,9 @@ return packer.startup(function(use)
 	use({ "nvim-telescope/telescope.nvim", branch = "0.1.x" }) -- fuzzy finder
 
 	-- Autocompletion
-  use({'neoclide/coc.nvim', branch = "release"})
+	use({ "neoclide/coc.nvim", branch = "release" })
 
 	-- Snippets
-
 
 	-- managing & installing lsp servers, linters and formatters
 	use("williamboman/mason.nvim") -- in charge of managing lsp servers, linters & formatters
@@ -83,6 +82,7 @@ return packer.startup(function(use)
 	})
 
 	-- auto closing
+	use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...
 	use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" }) -- autoclose tags
 
 	-- harpoon
