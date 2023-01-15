@@ -41,14 +41,11 @@ opt.colorcolumn = "140"
 -- Backspace
 opt.backspace = "indent,eol,start"
 
--- Clipboard
--- opt.clipboard:append("unnamedplus")
-
 -- Split windows
 opt.splitright = true
 opt.splitbelow = true
 
-opt.listchars = "trail:·,space:·"
+opt.listchars = "tab:→\\ ,trail:·,space:·"
 opt.list = true
 
 opt.iskeyword:append("-") -- considers - as part of the word
