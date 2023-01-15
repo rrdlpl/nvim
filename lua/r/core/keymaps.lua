@@ -39,6 +39,7 @@ keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+keymap.set("n", "<leader>.", ":NvimTreeFindFileToggle<CR>")
 
 local telescope = require("telescope.builtin")
 keymap.set("n", "<leader>ff", telescope.find_files, {})
