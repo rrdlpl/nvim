@@ -48,5 +48,8 @@ opt.backspace = "indent,eol,start"
 opt.splitright = true
 opt.splitbelow = true
 
+opt.listchars = "trail:·,space:·"
+opt.list = true
+
 opt.iskeyword:append("-") -- considers - as part of the word
 vim.g.mapleader = true
