@@ -1,5 +1,5 @@
-require("r.plugins-setup")
 require("r.core.options")
+require("r.plugins-setup")
 require("r.core.keymaps")
 require("r.core.color-scheme")
 require("r.plugins.comment")
