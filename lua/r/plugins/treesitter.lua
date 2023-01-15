@@ -25,7 +25,6 @@ treesitter.setup({
 		"yaml",
 		"html",
 		"css",
-		"scss",
 		"markdown",
 		"bash",
 		"lua",
