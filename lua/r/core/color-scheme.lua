@@ -33,6 +33,17 @@ tokyonight.setup({
 	--- function will be called with a ColorScheme table
 	---@param colors ColorScheme
 	on_colors = function(colors)
+		colors.border = "#A1B5B1"
+		colors.brown = "#504945"
+		colors.white = "#FFF1F3"
+		colors.grey = "#72696A"
+		colors.black = "#000000"
+		colors.pink = "#FF6188"
+		colors.green = "#A9DC76"
+		colors.aqua = "#78DCE8"
+		colors.yellow = "#FFD866"
+		colors.orange = "#FC9867"
+		colors.purple = "#AB9DF2"
 		colors.pink = "#f3005f"
 		colors.bg = "#1d1e1a"
 	end,
