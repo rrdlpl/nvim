@@ -12,5 +12,44 @@ monokai.setup({
 			fg = palette.pink,
 			bg = palette.base2,
 		},
+		["@constructor"] = {
+			fg = palette.green,
+		},
+		["@number"] = {
+			fg = palette.pink,
+		},
+		["@parameter"] = {
+			fg = palette.orange,
+		},
+		["@punctuation.bracket"] = {
+			fg = palette.purple,
+		},
+		["@type"] = {
+			fg = palette.green,
+		},
+		["@type.builtin"] = {
+			fg = palette.aqua,
+		},
+		["@type.qualifier"] = {
+			fg = palette.pink,
+		},
+		["@green"] = {
+			fg = palette.green,
+		},
+		["@aqua"] = {
+			fg = palette.aqua,
+		},
+		["@pink"] = {
+			fg = palette.pink,
+		},
+		["@purple"] = {
+			fg = palette.purple,
+		},
+		["@orange"] = {
+			fg = palette.orange,
+		},
+		["@white"] = {
+			fg = palette.white,
+		},
 	},
 })
