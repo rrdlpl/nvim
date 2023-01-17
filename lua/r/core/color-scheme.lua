@@ -61,7 +61,7 @@ tokyonight.setup({
 			fg = c.pink,
 		}
 		hl["@constructor"] = {
-			fg = c.white,
+			fg = c.green,
 		}
 		hl["@variable"] = {
 			fg = c.white,
@@ -143,6 +143,9 @@ tokyonight.setup({
 		}
 		hl["@scss.plain_value"] = {
 			fg = c.white,
+		}
+		hl.typescriptIdentifierName = {
+			fg = c.green,
 		}
 		hl.TelescopeNormal = {
 			bg = c.bg_dark,
