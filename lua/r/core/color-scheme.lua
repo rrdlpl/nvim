@@ -32,21 +32,7 @@ tokyonight.setup({
 	--- You can override specific color groups to use other groups or a hex color
 	--- function will be called with a ColorScheme table
 	---@param colors ColorScheme
-	on_colors = function(colors)
-		colors.border = "#A1B5B1"
-		colors.brown = "#504945"
-		colors.white = "#FFF1F3"
-		colors.grey = "#72696A"
-		colors.black = "#000000"
-		colors.pink = "#FF6188"
-		colors.green = "#A9DC76"
-		colors.aqua = "#78DCE8"
-		colors.yellow = "#FFD866"
-		colors.orange = "#FC9867"
-		colors.purple = "#AB9DF2"
-		colors.pink = "#f3005f"
-		colors.bg = "#1d1e1a"
-	end,
+	on_colors = function(colors) end,
 
 	--- You can override specific highlights to use other groups or a hex color
 	--- function will be called with a Highlights and ColorScheme table
@@ -54,66 +40,7 @@ tokyonight.setup({
 	---@param colors ColorScheme
 	on_highlights = function(hl, c)
 		local prompt = "#2d3149"
-		hl["@type.qualifier"] = {
-			fg = c.pink,
-		}
-		hl["@keyword"] = {
-			fg = c.pink,
-		}
-		hl["@constructor"] = {
-			fg = c.green,
-		}
-		hl["@variable"] = {
-			fg = c.white,
-		}
-		hl["@variable.builtin"] = {
-			fg = c.orange,
-		}
-		hl["@constant"] = {
-			fg = c.white,
-		}
-		hl["@parameter"] = {
-			fg = c.white,
-		}
-		hl["@none"] = {
-			fg = c.white,
-		}
-
-		hl["@conditional"] = {
-			fg = c.pink,
-		}
-		hl["@type"] = {
-			fg = c.green,
-		}
-		hl["@method"] = {
-			fg = c.green,
-		}
-		hl["@function"] = {
-			fg = c.green,
-		}
-		hl["@function.call"] = {
-			fg = c.green,
-		}
-		hl["@include"] = {
-			fg = c.pink,
-		}
-		hl["@string"] = {
-			fg = c.yellow,
-		}
-		hl["@number"] = {
-			fg = c.pink,
-		}
-		hl["@property"] = {
-			fg = c.white,
-		}
-		--htnml
-		hl["@tag"] = {
-			fg = c.pink,
-		}
-		hl["@tag.attribute"] = {
-			fg = c.green,
-		}
-		-- scss
+		-- -- scss
 		hl["@scss.class_name"] = {
 			fg = c.green,
 		}
@@ -143,36 +70,6 @@ tokyonight.setup({
 		}
 		hl["@scss.plain_value"] = {
 			fg = c.white,
-		}
-		hl.typescriptIdentifierName = {
-			fg = c.green,
-		}
-		hl.TelescopeNormal = {
-			bg = c.bg_dark,
-			fg = c.fg_dark,
-		}
-		hl.TelescopeBorder = {
-			bg = c.bg_dark,
-			fg = c.bg_dark,
-		}
-		hl.TelescopePromptNormal = {
-			bg = prompt,
-		}
-		hl.TelescopePromptBorder = {
-			bg = prompt,
-			fg = prompt,
-		}
-		hl.TelescopePromptTitle = {
-			bg = prompt,
-			fg = prompt,
-		}
-		hl.TelescopePreviewTitle = {
-			bg = c.bg_dark,
-			fg = c.bg_dark,
-		}
-		hl.TelescopeResultsTitle = {
-			bg = c.bg_dark,
-			fg = c.bg_dark,
 		}
 	end,
 })

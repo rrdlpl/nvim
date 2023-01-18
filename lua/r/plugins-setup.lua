@@ -34,7 +34,7 @@ return packer.startup(function(use)
 	use("nvim-lua/plenary.nvim")
 	use("morhetz/gruvbox")
 	use("tomasr/molokai")
-	use("folke/tokyonight.nvim")
+	use("rrdlpl/tokyonight.nvim")
 
 	-- tmux & split window navigation
 	use("christoomey/vim-tmux-navigator")
