@@ -45,6 +45,7 @@ local telescope = require("telescope.builtin")
 keymap.set("n", "<leader>ff", telescope.find_files, {})
 keymap.set("n", "<C-p>", telescope.git_files, {})
 keymap.set("n", "<leader>fs", telescope.live_grep, {})
+keymap.set("n", "<leader>tm", ":Telescope harpoon marks<CR>")
 keymap.set("n", "<leader>fp", function()
 	telescope.grep_string({
 		search = vim.fn.input("Grep >"),
