@@ -16,3 +16,7 @@ vim.keymap.set("n", "<leader>m", mark.add_file)
 -- vim.keymap.set("n", "<C-s>", function()
 -- 	ui.nav_file(4)
 -- end)
+
+vim.cmd([[
+  autocmd Filetype harpoon setlocal cursorline
+]])
