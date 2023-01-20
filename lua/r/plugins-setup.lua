@@ -37,12 +37,10 @@ return packer.startup(function(use)
 	use("rrdlpl/tokyonight.nvim")
 
 	-- tmux & split window navigation
-	use("christoomey/vim-tmux-navigator")
 	use("szw/vim-maximizer") -- Maximizes and restores current window
 
 	-- Essential plugins
-	use("tpope/vim-surround") -- ysw" ds"
-	use("vim-scripts/ReplaceWithRegister")
+	--
 	-- Commenting with gc
 	use("numToStr/Comment.nvim")
 
