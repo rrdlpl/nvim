@@ -37,6 +37,7 @@ return packer.startup(function(use)
 	use("rrdlpl/tokyonight.nvim")
 
 	-- tmux & split window navigation
+	use("christoomey/vim-tmux-navigator")
 	use("szw/vim-maximizer") -- Maximizes and restores current window
 
 	-- Essential plugins
@@ -83,7 +84,6 @@ return packer.startup(function(use)
 	use("nvim-treesitter/playground")
 
 	-- auto closing
-	use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...
 	use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" }) -- autoclose tags
 
 	-- harpoon
