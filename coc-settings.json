@@ -1,0 +1,8 @@
+{
+  "eslint.packageManager": "yarn",
+  "eslint.nodePath": ".yarn/sdks",
+  "workspace.workspaceFolderCheckCwd": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "tsserver.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.preferences.importModuleSpecifier": "relative"
+}
